@@ -1,0 +1,90 @@
+<!DOCTYPE html><html lang="en"><head>
+    <title>My calculator</title>
+    <script src="js/2c47716a54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mycalculator.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="js/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/2c47716a54.js" crossorigin="anonymous"></script>
+    <script src="mycalculator.js" defer=""></script>
+<link rel="stylesheet" href="css/index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="none,noarchive">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 calculatorBg">
+                    <div class="outputBox">
+                        <h1 id="outputExpression"></h1>
+                        <h3 id="output"></h3>
+                    </div>
+                    <div class="iconsBox">
+                        <div class="leftIconBox">
+                            <button id="historyButton"><i class="fa-regular fa-clock leftIcons"></i></button>
+                            <a href="https://gajendrancalci2.ccbp.tech/" class="nextPageLink">
+                                <button id="converterButton"><i class="fa-solid fa-ruler-horizontal leftIcons"></i></button>
+                            </a>
+                            <button id="scientificButton"><i class="fas fa-calculator leftIcons"></i></button>
+                        </div>
+                        <div class="rightIconBox">
+                            <button id="deleteButton"><i class="fa-solid fa-delete-left deleteIcon"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="numberBox">
+                        <div class="historyDropdownBackground" id="historyDropdownBox">
+                            <div class="historyDropdown">
+                                <div id="historyDropdown" class="hs">
+
+                                </div>
+                                <div class="clearHistoryButtonContainer">
+                                    <button id="clearHistoryButton">Clear history</button>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="numberTable">
+                            <tbody><tr>
+                                <td><button class="numberButton redSign" id="C">C</button></td>
+                                <td><button class="numberButton greenSign" id="()">( )</button></td>
+                                <td><button class="numberButton greenSign" id="%">%</button></td>
+                                <td><button class="numberButton greenSign" id="/">/</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="numberButton" id="7">7</button></td>
+                                <td><button class="numberButton" id="8">8</button></td>
+                                <td><button class="numberButton" id="9">9</button></td>
+                                <td><button class="numberButton sign greenSign" id="x">x</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="numberButton" id="4">4</button></td>
+                                <td><button class="numberButton" id="5">5</button></td>
+                                <td><button class="numberButton" id="6">6</button></td>
+                                <td><button class="numberButton sign greenSign" id="-">-</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="numberButton" id="1">1</button></td>
+                                <td><button class="numberButton" id="2">2</button></td>
+                                <td><button class="numberButton" id="3">3</button></td>
+                                <td><button class="numberButton sign greenSign" id="+">+</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="numberButton" id="negate">+/-</button></td>
+                                <td><button class="numberButton" id="0">0</button></td>
+                                <td><button class="numberButton sign" id="decimal">.</button></td>
+                                <td><button class="numberButton sign equal" id="equals">=</button></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/index.js"></script>
+
+
+</body></html>
